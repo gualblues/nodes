@@ -1,0 +1,45 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "API notícias e cursos Febrasgo",
+        "description": "API para manipular notícias e cursos"
+    },
+    "schemes": [
+        "http"
+    ],
+    "host": "ec2-3-16-225-181.us-east-2.compute.amazonaws.com:3001",
+    "basePath": "/",
+    "paths": {
+        "/noticias": {
+            "get": {
+                "summary": "Retorna notícias de um banco Wordpress",
+                "responses": {
+                    "newData": {
+                        "description": "Lista notícias de um banco myPHPadmin"
+                    }
+                }
+            }
+        },
+        "/cursos": {
+            "get": {
+                "summary": "Retorna cursos de um banco Wordpress",
+                "responses": {
+                    "newData": {
+                        "description": "Lista cursos de um banco mmyPHPadmin"
+                    }
+                }
+            }
+        },
+        "/eventos": {
+            "get": {
+                "summary": "Retorna eventos de um banco Wordpress",
+                "responses": {
+                    "newData": {
+                        "description": "Lista eventos de um banco myPHPadmin"
+                    }
+                }
+            }
+        }
+    }
+}

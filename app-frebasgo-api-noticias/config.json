@@ -1,0 +1,18 @@
+{
+
+  "porta": 3001,
+  "urlpesquisaNasa": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
+  "urlWordPressHomolog": "http://appfebrasgo.foursys.com:83/",
+  "urlWordPressAmazon": "http://ec2-18-221-246-232.us-east-2.compute.amazonaws.com/",
+  "expressaoPosts": "?rest_route=/wp/v2/posts/?order=desc",
+  "expressaoCursos": "?rest_route=/wp/v2/cursos/",
+  "expressaoEventos": "?rest_route=/wp/v2/v2/eventos/",
+  "bd": {
+    "host": "wpfebrasgo.cgbk827sxrzw.us-east-2.rds.amazonaws.com",
+    "port": 3306,
+    "user": "admin",
+    "password": "jf5TZAqmNsJ7Yr5h",
+    "database": "sample"
+  }, 
+  "caminho_cfv":"csvfolder/sample.csv"
+}
