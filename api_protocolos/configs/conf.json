@@ -1,0 +1,22 @@
+{
+    "database":{
+        "mongoAmazon": {
+            "app": {
+                "port": 27017
+            },
+            "db": {
+                "url": "mongodb://admin:UaZ8xP7a3wEexaT9@ec2-3-17-225-213.us-east-2.compute.amazonaws.com:27017/admin"
+            }
+        },
+        "mongoHomologacao": {
+            "app": {
+                "port": 3000
+            },
+            "db": {
+                "url": "mongodb+srv://oto:nobushi22@autenticacao-ub7fk.mongodb.net/autenticacao?retryWrites=true"
+            }
+        }
+
+    }
+    
+}
